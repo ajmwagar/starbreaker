@@ -11,5 +11,5 @@ edition = "2018"
 bevy = "0.4"
 bevy_rapier3d = { version = "0.7", features = ["simd-stable", "parallel"] }
 
-# Testing
-bevy_fly_camera = "0.6.0"
+noise = "0.7"
+rand = "0.8.0"
