@@ -1,0 +1,15 @@
+[package]
+name = "starbreaker"
+version = "0.1.0"
+authors = ["Avery Wagar <ajmw.subs@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Core Dependencies
+bevy = "0.4"
+bevy_rapier3d = { version = "0.7", features = ["simd-stable", "parallel"] }
+
+# Testing
+bevy_fly_camera = "0.6.0"
